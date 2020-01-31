@@ -111,16 +111,16 @@ layout:
 
 header:
   # Header height (Support for all types of CSS size units).
-  height: 80%
+  height: 40%
   # Header navigation bar height (Support for all types of CSS size units).
   nav_height: 50px
   # Background image in the header.
   bg_image:
-    enable: false
+    enable: enable
     # In theme directory (source/images): /images/avatar.png
     # In site directory (source/uploads): /uploads/avatar.png
     # You can also use a link of image.
-    url:
+    url: /images/banner.jpg
   # Mask effect of the background image.
   mask:
     enable: false
@@ -133,7 +133,7 @@ header:
 
 # Creative Commons 4.0 International License.
 creative_commons:
-  enable: true
+  enable: false
   # Available: BY | BY-SA | BY-ND | BY-NC | BY-NC-SA | BY-NC-ND.
   # For details, please see: https://creativecommons.org/share-your-work/licensing-types-examples/
   license: BY-NC-SA
@@ -236,13 +236,13 @@ author:
     # You can also use a link of image.
     url: /images/avatar.png
     # If true, the avatar would be displayed in a circle.
-    rounded: false
+    rounded: true
     # The value should be chosen from 0 to 1.
     opacity: 1
     # Mouse hover animation, available value: turn | shake.
     animation: turn
   # Your favorite motto.
-  motto: hello world
+  motto: CYoSeeYou
 
 # Social links.
 # Value before `||` delimiter is the target link.
