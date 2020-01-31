@@ -656,7 +656,7 @@ gallery_waterfall:
 # Lazy load the images of post.
 # See: https://github.com/tuupola/lazyload
 lazyload:
-  enable: false
+  enable: true
   # Available values: gif | block
   placeholder: gif
 
