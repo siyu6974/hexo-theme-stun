@@ -43,7 +43,7 @@ qihu360_site_verification:
 menu:
   home: / || home
   archives: /archives/ || folder-open
-  ChangE-4: /ChangE-4/ || server
+  ChangE-4: javascript:;|| server
   # categories: /categories/ || th
   # tags: /tags/ || tags
   # about: /about/ || user
@@ -54,9 +54,10 @@ menu:
 # Secondary menu.
 submenu:
   # Add item of secondary menu in here.
-  # xxx:
-  #   xx1: /xxx/ || xxx
-  #   xx2: /xxx/ || xxx
+  ChangE-4:
+    TCAM: /ChangE-4/TCAM/ || file-image-o
+    PCAM: /ChangE-4/PCAM/ || file-image-o
+    LCAM: /ChangE-4/LCAM/ || file-image-o
 
 menu_settings:
   # Only show by icon.
