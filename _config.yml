@@ -43,6 +43,7 @@ qihu360_site_verification:
 menu:
   home: / || home
   archives: /archives/ || folder-open
+  ChangE-4: /ChangE-4/ || server
   # categories: /categories/ || th
   # tags: /tags/ || tags
   # about: /about/ || user
@@ -251,11 +252,12 @@ author:
 # If you can`t find a suitable icon, you can choose to display the original
 #   text by adding the "origin" prefix (e.g. origin:sf, then "sf" will be show).
 social:
-  github: https://github.com/ || github
-  google: https://plus.google.com/ || google
+  bilibili: https://space.bilibili.com/11639241 || origin:Bili
+  github: https://github.com/siyu6974 || github
+  # google: https://plus.google.com/ || google
   # twitter: https://twitter.com/ || twitter
   # youtube: https://youtube.com/ || youtube
-  # segmentfault: https://segmentfault.com/ || origin:sf
+  stackoverflow: https://stackoverflow.com/users/4980651/siyu || stack-overflow
   # weibo: https://weibo.com/ || weibo
   # zhihu: https://www.zhihu.com/ || origin:知
   # wechat: yournumber || weixin
@@ -264,7 +266,7 @@ social:
   # xxx: xxx || (origin:)xxx
 
 social_setting:
-  enable: false
+  enable: true
   # Only show by icon.
   icon_only: true
 
