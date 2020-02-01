@@ -135,12 +135,12 @@ header:
 
 # Creative Commons 4.0 International License.
 creative_commons:
-  enable: false
+  enable: true
   # Available: BY | BY-SA | BY-ND | BY-NC | BY-NC-SA | BY-NC-ND.
   # For details, please see: https://creativecommons.org/share-your-work/licensing-types-examples/
-  license: BY-NC-SA
+  license: BY-NC
   # Show the CC license in the sidebar.
-  sidebar: true
+  sidebar: false
   # Show the CC license at the post bottom.
   post: true
   # You can set a language value if you prefer a translated version of CC license.
@@ -396,11 +396,11 @@ post_widget:
     horizon_line: true
   # Article sharing
   share:
-    enable: false
+    enable: true
     # The text displayed before the share button.
     label: "Share to: "
     # Optional value: qzone, qq, weibo, wechat, douban, linkedin, facebook, twitter, google
-    target: qzone, qq, weibo, wechat, douban, linkedin, facebook, twitter, google
+    target: qzone, qq, weibo, wechat, douban, facebook, twitter
 
 # Automatically retain article excerpt.
 auto_excerpt:
