@@ -543,7 +543,7 @@ baidu_analytics:
 
 # Tencent analytics ID
 # See: https://v2.ta.qq.com/
-tencent_analytics:
+tencent_analytics: 66513935
 
 # ---------------------------------------------------------------
 # Search config
