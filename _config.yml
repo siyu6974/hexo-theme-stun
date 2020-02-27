@@ -57,7 +57,6 @@ submenu:
   ChangE-4:
     TCAM: /ChangE-4/TCAM/ || file-image-o
     PCAM: /ChangE-4/PCAM/ || file-image-o
-    LCAM: /ChangE-4/LCAM/ || file-image-o
 
 menu_settings:
   # Only show by icon.
