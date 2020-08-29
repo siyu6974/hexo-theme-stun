@@ -588,7 +588,7 @@ google_analytics:
 
 # Baidu analytics ID
 # See: https://tongji.baidu.com/
-baidu_analytics:
+baidu_analytics: 1a07503eb36e1327b824741fa5df7e4e
 
 # Tencent analytics ID
 # See: https://v2.ta.qq.com/
