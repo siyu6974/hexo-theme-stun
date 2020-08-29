@@ -1,13 +1,15 @@
-if page.comments || (theme.pjax && theme.pjax.enable)
-  if theme.disqus && theme.disqus.enable
+if page.comments || theme.pjax.enable
+  if theme.disqus.enable
     include ./disqus.pug
-  else if theme.valine && theme.valine.enable
+  else if theme.valine.enable
     include ./valine.pug
-  else if theme.gitalk && theme.gitalk.enable
+  else if theme.minivaline.enable
+    include ./minivaline.pug
+  else if theme.gitalk.enable
     include ./gitalk.pug
-  else if theme.utterances && theme.utterances.enable
+  else if theme.utterances.enable
     include ./utterances.pug
-  else if theme.livere && theme.livere.enable
+  else if theme.livere.enable
     include ./livere.pug
-else if theme.valine && theme.valine.enable && theme.valine.visitor
+else if theme.valine.enable && theme.valine.visitor
   include ./valine.pug

@@ -1,10 +1,9 @@
 extends ./_layout.pug
 
 block content
+  // Just used to judge whether it is an article page
   div#is-post
   div.post
-    - var fa_prefix = theme.fa_prefix || 'fa'
-
     include ./_mixins/post-header.pug
     include ./_mixins/gallery.pug
 
@@ -17,11 +16,8 @@ block content
 
     footer.post-footer
       if theme.post_widget.end_text.enable
-        div.post-end
-          p
-            span= "------ "
-            span= __("post.end")
-            span= " ------"
+        div.post-ending.ending
+          div.ending__text= __('post.end')
 
       if (page.copyright !== false) && (theme.creative_commons.enable && theme.creative_commons.post)
         include ./_partials/widgets/copyright.pug
@@ -31,13 +27,14 @@ block content
           div.post-tags
             each tag in page.tags.data
               span.post-tags-item
-                i.post-tags-item__i(class=`${fa_prefix} fa-tags`)
-                a.post-tags-item__a(href=tag.permalink)= tag.name
+                span.post-tags-item__icon
+                  i(class=theme.icon.post_tags)
+                a.post-tags-item__link(href=tag.permalink)= tag.name
 
-      if _.get(theme, 'post_widget.share.enable')
+      if theme.post_widget.share.enable
         include ./_partials/widgets/share.pug
 
-      if (page.reward !== false) && (theme.reward && theme.reward.enable)
+      if (page.reward !== false) && theme.reward.enable
         include ./_partials/widgets/reward.pug
 
-      include ./_partials/widgets/pagination.pug
+      include ./_partials/widgets/paginator.pug

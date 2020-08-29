@@ -1,5 +1,5 @@
 -
-  var instantsearch_js = "https://cdn.jsdelivr.net/npm/instantsearch.js@2.1.1/dist/instantsearch.min.js";
+  var instantsearch_js = 'https://cdn.jsdelivr.net/npm/instantsearch.js@2.1.1/dist/instantsearch.min.js';
 
   if (theme.cdn.instantsearch_js) {
     instantsearch_js = theme.cdn.instantsearch_js;
@@ -28,6 +28,12 @@ script.
         });
     });
 
+    function closeSearch () {
+      $('body').css({ overflow: 'auto' });
+      $('.search-popup').css({ display: 'none' });
+      $('.search-mask').css({ display: 'none' });
+    }
+
     $('.search-mask, .search-close').on('click', function () {
       closeSearch();
     });
@@ -40,7 +46,6 @@ script.
     });
 
     var algolia = CONFIG.algolia;
-
     if (!algolia && !(algolia.appId && algolia.apiKey && algolia.indexName)) {
       return console.error('Algolia setting is invalid.');
     }
@@ -66,7 +71,7 @@ script.
         container: '.search-input',
         reset: false,
         magnifier: false,
-        placeholder: algolia.languages.input_placeholder
+        placeholder: algolia.languages.inputPlaceholder
       })
     );
 
@@ -86,7 +91,7 @@ script.
           empty: function (data) {
             return (
               '<div id="algolia-hits-empty">' +
-                algolia.languages.hits_empty.replace(/\$\{query}/, data.query) +
+                algolia.languages.hitsEmpty.replace(/\$\{query}/, data.query) +
               '</div>'
             );
           }
@@ -104,14 +109,14 @@ script.
           container: '#algolia-stats',
           templates: {
             body: function (data) {
-              var stats = algolia.languages.hits_stats
+              var stats = algolia.languages.hitsStats
                 .replace(/\$\{hits}/, data.nbHits)
                 .replace(/\$\{time}/, data.processingTimeMS);
               return (
                 stats +
                 '<span class="algolia-logo pull-right">' +
                   '<img src="' + CONFIG.root +
-                  'images/algolia.svg" alt="Algolia" />' +
+                  `${CONFIG.sourcePath.images}/algolia.svg" alt="Algolia" />` +
                 '</span>'
               );
             }
@@ -143,18 +148,4 @@ script.
     );
 
     search.start();
-
-    function closeSearch () {
-      $('body').css('overflow', 'auto');
-      $('.search-popup')
-        .velocity('stop')
-        .velocity('transition.expandOut', {
-          duration: 300
-        });
-      $('.search-mask')
-        .velocity('stop')
-        .velocity('transition.fadeOut', {
-          duration: 300
-        });
-    }
   });
