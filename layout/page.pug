@@ -24,5 +24,8 @@ block content
         +gallery(page)
       != page.content
 
-  if (page.reward === true) && theme.reward.enable
+  if isShowReward
     include ./_partials/widgets/reward.pug
+
+  if isShowCC
+    include ./_partials/widgets/copyright.pug

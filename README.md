@@ -1,5 +1,7 @@
+<strong>警告：目前该项目年久失修，请尽量不要使用，建议使用一直处于维护状态的 [NexT](https://github.com/next-theme/hexo-theme-next) 主题，祝好</strong>
+
 <p align="center">
-  <a href="https://liuyib.github.io/hexo-theme-stun/" target="_blank" rel="noopener noreferrer">
+  <a href="https://theme-stun.github.io/docs/zh-CN/" target="_blank" rel="noopener noreferrer">
     <img src="./source/images/icons/stun-logo.svg" alt="Stun Logo" width="100">
   </a>
 </p>
@@ -13,8 +15,11 @@
   <a href="http://commitizen.github.io/cz-cli/" target="_blank" rel="noopener noreferrer">
     <img alt="Commitizen friendly" src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg">
   </a>
-  <a href="https://libraries.io/github/liuyib/hexo-theme-stun#dependencies" target="_blank" rel="noopener noreferrer">
-    <img alt="Dependency status" src="https://img.shields.io/librariesio/github/liuyib/hexo-theme-stun">
+  <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fliuyib%2Fhexo-theme-stun?ref=badge_shield">
+    <img alt="FOSSA Status" src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fliuyib%2Fhexo-theme-stun.svg?type=shield"/>
+  </a>
+  <a href="https://depfu.com/github/liuyib/hexo-theme-stun?project_id=17221" target="_blank" rel="noopener noreferrer">
+    <img alt="Dependencies status" src="https://badges.depfu.com/badges/c063484513939d540c95c0a824e5606f/count.svg">
   </a>
   <a href="https://github.com/liuyib/hexo-theme-stun/blob/master/LICENSE" target="_blank" rel="noopener noreferrer">
     <img alt="GitHub LICENSE" src="https://img.shields.io/github/license/liuyib/hexo-theme-stun.svg">
@@ -26,8 +31,8 @@
   <a href="https://github.com/liuyib/hexo-theme-stun/releases" target="_blank" rel="noopener noreferrer">
     <img alt="GitHub release" src="https://img.shields.io/github/release/liuyib/hexo-theme-stun.svg">
   </a>
-  <a href="https://gitter.im/liuyib/hexo-theme-stun?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge" target="_blank" rel="noopener noreferrer">
-    <img alt="Gitter" src="https://badges.gitter.im/liuyib/hexo-theme-stun.svg">
+  <a href="https://github.com/liuyib/hexo-theme-stun/discussions" target="_blank" rel="noopener noreferrer">
+    <img alt="Github Discussions" src="https://img.shields.io/badge/Github-Discussions-4fb999.svg">
   </a>
 </p>
 
@@ -36,16 +41,11 @@
 ## :sparkles: 演示
 
 - [Liuyib's Blog](https://liuyib.github.io/)
-- [弥枳's Blog](http://blog2.coor.top/)
-- [轻尘's Blog](https://qcxitong.xyz/)
-- [impressionyang's Blog](https://impressionyang.github.io)
-- [峡州仙士之页](https://cjh0613.gitee.io/blog/)
 - [Cheeks's Blog](https://www.cheeks.top/)
 - [lingan1996's Blog](https://www.lingan1996.top)
 - [MikyMing's Blog](https://mikyming.online/)
-- [Yichangkong's Blog](https://yichangkong.github.io/)
-- [樱井枫的小博客](https://sakurai.in/)
 - [Gemini's Blog](https://geminiplanet.cn/)
+- [TimeMachine's Blog](https://timemachine.icu/)
 
 如果你准备长期使用 «Stun» 主题，并希望展示在这里，你只需在 [README](https://github.com/liuyib/hexo-theme-stun/edit/master/README.md) 中填入你的网站，然后提交 PR 即可。
 
@@ -53,8 +53,8 @@
 
 - 简洁 & 快速 & 易用 & **可定制性高**
 - 响应式设计
-- [二级导航菜单](https://liuyib.github.io/hexo-theme-stun/zh-CN/advanced/advanced-setting.html#二级导航菜单)
-- 支持[图片懒加载](https://liuyib.github.io/hexo-theme-stun/zh-CN/advanced/advanced-setting.html#图片懒加载)
+- [二级导航菜单](https://theme-stun.github.io/docs/zh-CN/advanced/advanced.html#二级导航菜单)
+- 支持[图片懒加载](https://theme-stun.github.io/docs/zh-CN/advanced/advanced.html#图片懒加载)
 - 支持 [Pjax](https://github.com/defunkt/jquery-pjax)
 - 支持 [PWA](https://developers.google.com/web/progressive-web-apps)
 - 支持 [Fancybox](https://github.com/fancyapps/fancybox)
@@ -63,9 +63,9 @@
 - 支持 [Gitalk](https://github.com/gitalk/gitalk)、[Valine](https://valine.js.org/)、[Livere](https://livere.com/)、[Disqus](https://disqus.com/)、[Utterances](https://github.com/utterance/utterances) 评论
 - 瀑布流式的[相册页面](https://liuyib.github.io/gallery/)
 - 内置[谷歌广告](https://www.google.cn/adsense/start/)，一键开启
-- 代码高亮，[多种配色](https://liuyib.github.io/hexo-theme-stun/zh-CN/advanced/advanced-setting.html#代码高亮)可选
-- 好看的[背景特效](https://liuyib.github.io/hexo-theme-stun/zh-CN/advanced/third-part.html#ribbon)
-- 超详细[配置文档](https://liuyib.github.io/hexo-theme-stun/)
+- 代码高亮，[多种配色](https://theme-stun.github.io/docs/zh-CN/advanced/advanced.html#代码高亮)可选
+- 好看的[背景特效](https://theme-stun.github.io/docs/zh-CN/advanced/third-part.html#ribbon)
+- 超详细[配置文档](https://theme-stun.github.io/docs/zh-CN/)
 
 ## :package: 安装
 
@@ -76,6 +76,14 @@
   ```bash
   $ git clone https://github.com/liuyib/hexo-theme-stun.git themes/stun
   ```
+
+  > 该指令会将本仓库中的所有文件克隆下来，其中有很多文件仅用于项目开发，对于普通用户来说完全用不到。因此，如果你想仅克隆主题运行所必需的文件，请用下面的指令代替上面的指令：
+  >
+  > ```bash
+  > $ git clone -b dist https://github.com/liuyib/hexo-theme-stun.git themes/stun
+  > ```
+  >
+  > 注意：这样做不方便以后更新，请谨慎使用。
 
 - 安装依赖 `hexo-renderer-pug`
 
@@ -109,15 +117,18 @@ $ git pull
 
 ## :page_facing_up: 文档
 
-请查看：[https://liuyib.github.io/hexo-theme-stun/zh-CN/](https://liuyib.github.io/hexo-theme-stun/zh-CN/)
+下面是多个文档镜像（它们是全量同步的），任选其一访问即可。
+
+- Github Pages: [https://theme-stun.github.io/docs/](https://theme-stun.github.io/docs/)
+- Gitee Pages: [https://theme-stun.gitee.io/docs/](https://theme-stun.gitee.io/docs/)
 
 ## :question: 问题
 
-如果遇到问题，首先请仔细阅读[文档](https://liuyib.github.io/hexo-theme-stun/zh-CN/)，或者查看[常见问题](https://github.com/liuyib/hexo-theme-stun/blob/master/FAQ.md)。当以上的方法都无法帮助你时，再去提出 `issue`:hugs:。
+如果遇到问题，首先请仔细阅读[文档](https://theme-stun.github.io/docs/zh-CN/)，或者查看[常见问题](https://github.com/liuyib/hexo-theme-stun/blob/master/FAQ.md)。当以上的方法都无法帮助你时，再去提出 `issue`:hugs:。
 
 ## :handshake: 贡献
 
-在提出 Pull request 之前，请务必先阅读[贡献指南](https://liuyib.github.io/hexo-theme-stun/zh-CN/contribute/contribute.html)。
+在提出 Pull request 之前，请务必先阅读[贡献指南](https://theme-stun.github.io/docs/zh-CN/contribute/contribute.html)。
 
 感谢所有为 «Stun» 做出贡献的人！
 
@@ -131,6 +142,12 @@ $ git pull
 | :---: | :---: | :---: |:---: | :---: | :---: |
 | Not Supported | 12+ | 41+ | 45+ | 10+ | 32+ |
 
+## :star: Star 历史趋势
+
+[![Stargazers over time](https://starchart.cc/liuyib/hexo-theme-stun.svg)](https://starchart.cc/liuyib/hexo-theme-stun.svg)
+
 ## :page_with_curl: 开源协议
 
-[MIT](https://github.com/liuyib/hexo-theme-stun/blob/master/LICENSE) Copyright (c) 2020 liuyib
+[MIT](https://github.com/liuyib/hexo-theme-stun/blob/master/LICENSE) Copyright (c) 2019-present liuyib
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fliuyib%2Fhexo-theme-stun.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fliuyib%2Fhexo-theme-stun?ref=badge_large)

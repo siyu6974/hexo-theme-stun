@@ -19,7 +19,7 @@ block content
         div.post-ending.ending
           div.ending__text= __('post.end')
 
-      if (page.copyright !== false) && (theme.creative_commons.enable && theme.creative_commons.post)
+      if page.copyright === true || (isShowCC && theme.creative_commons.post)
         include ./_partials/widgets/copyright.pug
 
       if theme.post_widget.tags
@@ -34,7 +34,7 @@ block content
       if theme.post_widget.share.enable
         include ./_partials/widgets/share.pug
 
-      if (page.reward !== false) && theme.reward.enable
+      if isShowReward
         include ./_partials/widgets/reward.pug
 
       include ./_partials/widgets/paginator.pug
