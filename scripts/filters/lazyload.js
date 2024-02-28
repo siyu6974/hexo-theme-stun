@@ -31,6 +31,15 @@ hexo.extend.filter.register(
         }
 
         var className = `lazyload lazyload-${phClassName}`
+
+        var classPattern = /<img[^>]*\sclass\s*=\s*["']([^"']*)["']/;
+        var classMatch = match.match(classPattern);
+        if (classMatch) {
+            // Extracted class attribute
+            var orgClass = classMatch[1];
+            className += " " + orgClass;
+        }
+
         return `
         <img ${attrBegin} class="${className}"
           src="${placeholder}" data-src="${src}" ${attrEnd}>
